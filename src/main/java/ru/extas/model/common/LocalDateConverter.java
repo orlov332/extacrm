@@ -11,7 +11,7 @@ import java.sql.Date;
  * <p>LocalDateConverter class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Converter(autoApply = true)

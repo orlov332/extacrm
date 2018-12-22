@@ -12,7 +12,7 @@ import java.util.Set;
  * @author Valery Orlov
  *         Date: 19.12.13
  *         Time: 12:27
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public interface SaleService extends SecuredRepository<Sale> {

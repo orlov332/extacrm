@@ -10,7 +10,7 @@ import ru.extas.model.insurance.Insurance;
  * Интерфейс управления данными об иммущественном страховании
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

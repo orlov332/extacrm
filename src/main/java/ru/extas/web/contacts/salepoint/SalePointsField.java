@@ -16,7 +16,7 @@ import java.util.Set;
  * @author Valery Orlov
  *         Date: 20.02.14
  *         Time: 14:46
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SalePointsField extends CustomField<Set> {

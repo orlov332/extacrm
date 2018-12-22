@@ -28,7 +28,7 @@ import static ru.extas.web.UiUtils.showValidationError;
  * <p>Abstract AbstractEditForm class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class ExtaEditForm<TEntity> extends VerticalLayout {
@@ -105,10 +105,10 @@ public abstract class ExtaEditForm<TEntity> extends VerticalLayout {
 
     public interface CloseFormListener extends Serializable {
 
-        public static final Method CLOSE_FORM_METHOD = ReflectTools
+        Method CLOSE_FORM_METHOD = ReflectTools
                 .findMethod(CloseFormListener.class, "closeForm", CloseFormEvent.class);
 
-        public void closeForm(CloseFormEvent event);
+        void closeForm(CloseFormEvent event);
 
     }
 

@@ -58,7 +58,7 @@ import static ru.extas.web.contacts.salepoint.SalePointsDataDecl.*;
  * Форма ввода/редактирования лида
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class LeadEditForm extends ExtaEditForm<Lead> {

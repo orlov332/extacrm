@@ -10,7 +10,7 @@ import java.util.List;
  * @author Valery Orlov
  *         Date: 16.01.14
  *         Time: 17:37
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity
@@ -28,9 +28,7 @@ public class ProdCredit extends Product {
 		COLLATERAL_WITHOUT_PTS
 	}
 
-	;
-
-	@Column(name = "PROGRAM_TYPE")
+    @Column(name = "PROGRAM_TYPE")
 	@Enumerated(EnumType.STRING)
 	private ProgramType programType;
 

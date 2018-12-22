@@ -21,7 +21,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Таблица контактов (физ. лица)
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class PersonsGrid extends ExtaGrid<Person> {

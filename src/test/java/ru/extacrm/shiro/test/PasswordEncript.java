@@ -12,7 +12,7 @@ import java.util.Date;
  * <p>PasswordEncript class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.2.9
  */
 public class PasswordEncript {

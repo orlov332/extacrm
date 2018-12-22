@@ -244,7 +244,7 @@ public class NListContainer<T> extends AbstractContainer implements
 
     @Override
     public boolean containsId(final Object itemId) {
-        return getBackingList().contains((T) itemId);
+        return getBackingList().contains(itemId);
     }
 
     @Override
@@ -261,7 +261,7 @@ public class NListContainer<T> extends AbstractContainer implements
 
     @Override
     public boolean removeItem(final Object itemId) throws UnsupportedOperationException {
-        final boolean remove = backingList.remove((T) itemId);
+        final boolean remove = backingList.remove(itemId);
         if (remove) {
             fireItemSetChange();
         }

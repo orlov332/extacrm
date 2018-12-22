@@ -12,7 +12,7 @@ import ru.extas.web.commons.converters.String2EnumConverter;
  * <p>StringToLeadStatus class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

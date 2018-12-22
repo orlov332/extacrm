@@ -270,7 +270,7 @@ public class JpaJazyContainer<TEntityType extends IdentifiedObject>
 
     @Override
     public boolean containsId(final Object itemId) {
-        return entityItemList.contains((JpaEntityItem<TEntityType>) itemId);
+        return entityItemList.contains(itemId);
     }
 
     @Override

@@ -12,7 +12,7 @@ import com.wcs.wcslib.vaadin.widget.multifileupload.ui.UploadStateWindow;
  * @author Valery Orlov
  *         Date: 18.04.2014
  *         Time: 16:48
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class FileUploader extends CustomComponent {

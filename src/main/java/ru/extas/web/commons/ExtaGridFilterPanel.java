@@ -32,7 +32,7 @@ class ExtaGridFilterPanel extends Panel {
      */
     interface IFilterGrid {
 
-        static final int DEF_FIELDS_COUNT = 4;
+        int DEF_FIELDS_COUNT = 4;
 
         /**
          * Возвращает идентификаторы колонок по которым строится начальный фильтр

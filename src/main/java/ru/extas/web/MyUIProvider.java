@@ -12,7 +12,7 @@ import ru.extas.web.lead.embedded.LeadInputFormUI;
  * @author Valery Orlov
  *         Date: 14.04.2014
  *         Time: 20:20
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class MyUIProvider extends UIProvider {

@@ -100,7 +100,7 @@ public class HirePurchaseInSaleEditForm extends ExtaEditForm<ProductInstance> {
 
         form.addComponent(new FormGroupHeader("Сопутствующие расходы"));
         expendituresField = new ProductExpendituresField("Статьи расходов",
-                "Список дополнительных расходов сопровождающих продукт", (ProductInstance) getEntity());
+                "Список дополнительных расходов сопровождающих продукт", getEntity());
         form.addComponent(expendituresField);
 
         form.addComponent(new FormGroupHeader("Характеристики продукта"));

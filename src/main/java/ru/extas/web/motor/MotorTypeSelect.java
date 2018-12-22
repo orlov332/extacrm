@@ -16,7 +16,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  * Date: 23.10.13
  * Time: 15:09
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class MotorTypeSelect extends ComboBox {
@@ -46,7 +46,7 @@ public class MotorTypeSelect extends ComboBox {
         this("Тип техники");
     }
 
-    public void linkToBrand(MotorBrandSelect brandField) {
+    public void linkToBrand(final MotorBrandSelect brandField) {
         brandField.addValueChangeListener(event -> {
             final Property prop = event.getProperty();
             if (prop != null) {
@@ -56,7 +56,7 @@ public class MotorTypeSelect extends ComboBox {
         });
     }
 
-    private void fillItems(String brand) {
+    private void fillItems(final String brand) {
         final MotorTypeRepository typeRepository = lookup(MotorTypeRepository.class);
         final List<String> types;
         if (isNullOrEmpty(brand))

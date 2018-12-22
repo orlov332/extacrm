@@ -12,7 +12,7 @@ import ru.extas.model.lead.Lead;
  * @author Valery Orlov
  *         Date: 23.10.13
  *         Time: 22:52
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

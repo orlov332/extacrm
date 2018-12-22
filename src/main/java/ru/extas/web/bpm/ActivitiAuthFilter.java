@@ -13,7 +13,7 @@ import java.io.IOException;
  * @author Valery Orlov
  *         Date: 19.11.13
  *         Time: 12:34
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ActivitiAuthFilter implements Filter {

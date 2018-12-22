@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
  * Базовый абстрактный класс для классов раздела
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class ExtaAbstractView extends VerticalLayout implements View {

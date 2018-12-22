@@ -16,7 +16,7 @@ import java.io.InputStream;
  * Окошко с информацией о файле и кнопкой "Скачать"
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class DownloadFileWindow extends Window {

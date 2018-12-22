@@ -20,7 +20,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Опции отображения контактов в списке
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SalePointsDataDecl extends GridDataDecl {

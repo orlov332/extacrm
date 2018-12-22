@@ -15,7 +15,7 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  * @author Valery Orlov
  *         Date: 22.03.2014
  *         Time: 17:16
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 @MappedSuperclass

@@ -15,7 +15,7 @@ import ru.extas.web.commons.container.ExtaDbContainer;
  * Time: 12:15
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SalePointSimpleSelect extends com.vaadin.ui.ComboBox {

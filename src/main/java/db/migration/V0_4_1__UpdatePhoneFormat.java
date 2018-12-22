@@ -20,7 +20,7 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  * @author Valery Orlov
  *         Date: 17.04.2014
  *         Time: 21:32
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class V0_4_1__UpdatePhoneFormat implements SpringJdbcMigration {

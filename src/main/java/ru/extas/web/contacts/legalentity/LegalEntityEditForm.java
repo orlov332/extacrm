@@ -29,7 +29,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Форма ввода/редактирования юридического лица
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @SuppressWarnings("FieldCanBeLocal")

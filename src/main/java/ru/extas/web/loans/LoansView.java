@@ -17,7 +17,7 @@ import ru.extas.web.commons.Fontello;
  * Реализует экран кредитной деятельности
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class LoansView extends ExtaAbstractView {

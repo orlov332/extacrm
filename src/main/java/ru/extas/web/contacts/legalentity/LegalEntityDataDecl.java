@@ -13,7 +13,7 @@ import ru.extas.web.contacts.company.CompanyColumnGenerator;
  * Опции отображения контактов в списке
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class LegalEntityDataDecl extends GridDataDecl {

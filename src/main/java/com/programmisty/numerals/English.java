@@ -24,23 +24,23 @@ import static com.programmisty.numerals.Util.toUpperCaseFirstLetter;
  * English Numerals
  *
  * @author vit
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class English extends AbstractNumeral {
 
-    private static final String DECIMAL[] = {"zero", "one", "two", "three", "four",
-        "five", "six", "seven", "eight", "nine"};
+    private static final String[] DECIMAL = {"zero", "one", "two", "three", "four",
+            "five", "six", "seven", "eight", "nine"};
 
-    private static final String TENS[] = {"", "ten", "twenty", "thirty", "forty", "fifty",
-        "sixty", "seventy", "eighty", "ninety"};
+    private static final String[] TENS = {"", "ten", "twenty", "thirty", "forty", "fifty",
+            "sixty", "seventy", "eighty", "ninety"};
 
-    private static final String TEENS[] = {"ten", "eleven", "twelve", "thirteen",
-        "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+    private static final String[] TEENS = {"ten", "eleven", "twelve", "thirteen",
+            "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
 
-    private static final String LIONS[] = {"", "thousand", "million",
-        "billion", "trillion", "quadrillion", "quintillion", "sextillion", "septillion",
-        "octillion", "nonillion", "decillion"};
+    private static final String[] LIONS = {"", "thousand", "million",
+            "billion", "trillion", "quadrillion", "quintillion", "sextillion", "septillion",
+            "octillion", "nonillion", "decillion"};
 
     /**
      * {@inheritDoc}

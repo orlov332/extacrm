@@ -20,5 +20,5 @@ public enum EducationKind {
     // высшее
     HIGHER,
     // второе высшее
-    SECOND_HIGHER;
+    SECOND_HIGHER
 }

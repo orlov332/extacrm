@@ -34,7 +34,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Класс создает и управляей основным меню разделов
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ExtaMainMenu extends CssLayout implements Page.UriFragmentChangedListener {

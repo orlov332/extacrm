@@ -31,7 +31,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * Имплементация сервиса управления имущественными страховками
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

@@ -42,7 +42,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Форма ввода/редактирования лида
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class TaskEditForm extends ExtaEditForm<Task> {

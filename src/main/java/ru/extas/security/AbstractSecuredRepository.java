@@ -26,7 +26,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
  * @author Valery Orlov
  *         Date: 03.04.2014
  *         Time: 13:08
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public abstract class AbstractSecuredRepository<Entity extends SecuredObject> implements SecuredRepository<Entity> {

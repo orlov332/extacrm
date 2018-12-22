@@ -21,7 +21,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 21.06.2014
  *         Time: 15:36
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class CuratorsGroupEditForm extends ExtaEditForm<CuratorsGroup> {

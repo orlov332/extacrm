@@ -30,7 +30,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Таблица контактов (Точки продаж)
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SalePointsGrid extends ExtaGrid<SalePoint> {

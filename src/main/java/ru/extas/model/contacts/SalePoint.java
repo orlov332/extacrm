@@ -20,7 +20,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * @author Valery Orlov
  *         Date: 10.02.14
  *         Time: 15:24
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

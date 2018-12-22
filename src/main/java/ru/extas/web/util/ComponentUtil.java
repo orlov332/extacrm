@@ -16,7 +16,7 @@ import java.util.EnumSet;
  * Разные утилиты для компонентов пользовательского интерфейса
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ComponentUtil {

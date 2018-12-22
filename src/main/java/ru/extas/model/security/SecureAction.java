@@ -4,7 +4,7 @@ package ru.extas.model.security;
  * Действие разрешаемое пользователю
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public enum SecureAction {

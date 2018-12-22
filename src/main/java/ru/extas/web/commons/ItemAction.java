@@ -9,7 +9,7 @@ import com.vaadin.ui.Component;
  * @author Valery Orlov
  *         Date: 15.10.13
  *         Time: 22:36
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class ItemAction extends UIAction {

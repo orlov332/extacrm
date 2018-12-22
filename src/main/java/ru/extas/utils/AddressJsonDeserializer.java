@@ -20,7 +20,7 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  */
 public class AddressJsonDeserializer extends JsonDeserializer<Address> {
     @Override
-    public Address deserialize(final JsonParser jp, final DeserializationContext ctx) throws IOException, JsonProcessingException {
+    public Address deserialize(final JsonParser jp, final DeserializationContext ctx) throws IOException {
         final JsonNode node = jp.getCodec().readTree(jp);
         final JsonNode data = node.get("data");
         final Address address = Address.builder()

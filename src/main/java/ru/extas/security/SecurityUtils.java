@@ -13,7 +13,7 @@ import ru.extas.model.security.ExtaDomain;
  * @author Valery Orlov
  *         Date: 05.03.14
  *         Time: 17:48
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SecurityUtils {

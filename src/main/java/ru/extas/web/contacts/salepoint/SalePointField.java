@@ -32,7 +32,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 21.02.14
  *         Time: 12:53
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SalePointField extends ExtaCustomField<SalePoint> {

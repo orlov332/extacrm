@@ -19,7 +19,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Список страховых полисов в рамках БСО
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class PolicyGrid extends ExtaGrid<Policy> {

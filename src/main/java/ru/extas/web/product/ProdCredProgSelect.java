@@ -10,7 +10,7 @@ import ru.extas.web.util.ComponentUtil;
  * @author Valery Orlov
  *         Date: 07.02.14
  *         Time: 15:26
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ProdCredProgSelect extends ComboBox {

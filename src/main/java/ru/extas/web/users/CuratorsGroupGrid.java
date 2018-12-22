@@ -15,7 +15,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * @author Valery Orlov
  *         Date: 20.06.2014
  *         Time: 10:48
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class CuratorsGroupGrid extends ExtaGrid<CuratorsGroup> {

@@ -16,7 +16,7 @@ import java.util.List;
  * Управление формами А-7
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

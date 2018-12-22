@@ -8,7 +8,7 @@ import com.vaadin.server.Resource;
  * @author Valery Orlov
  *         Date: 15.10.13
  *         Time: 22:37
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class DefaultAction extends ItemAction {

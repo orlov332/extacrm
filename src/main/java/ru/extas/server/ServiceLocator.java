@@ -12,7 +12,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
  * Поставщик служб приложения
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public final class ServiceLocator {

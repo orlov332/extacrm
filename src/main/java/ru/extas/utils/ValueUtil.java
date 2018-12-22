@@ -8,7 +8,7 @@ import java.text.MessageFormat;
  * @author Valery Orlov
  *         Date: 29.08.13
  *         Time: 16:45
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ValueUtil {
@@ -38,7 +38,7 @@ public class ValueUtil {
 
     private static String intToString(final int sum) {
         int i, mny;
-        final StringBuilder result = new StringBuilder("");
+        final StringBuilder result = new StringBuilder();
         long divisor; //делитель
         int psum = sum;
 

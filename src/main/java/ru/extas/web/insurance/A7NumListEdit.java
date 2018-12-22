@@ -24,7 +24,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Компонент для редактирования списка номеров квитанций
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @SuppressWarnings("rawtypes")

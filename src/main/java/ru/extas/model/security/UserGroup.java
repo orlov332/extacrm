@@ -13,7 +13,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * Группа пользователей
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

@@ -17,7 +17,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
  * @author Valery Orlov
  *         Date: 03.03.14
  *         Time: 18:13
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity
@@ -118,11 +118,9 @@ public class ExtaPermission extends AuditedObject implements Permission {
 
         if (domain == perm.getDomain()) {
             if (perm.getTarget() == null || target == perm.getTarget()) {
-                if (isEmpty(perm.getActions())
+                return isEmpty(perm.getActions())
                         || actions.contains(SecureAction.ALL)
-                        || actions.containsAll(perm.getActions())) {
-                    return true;
-                }
+                        || actions.containsAll(perm.getActions());
             }
         }
 

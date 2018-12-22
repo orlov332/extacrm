@@ -16,5 +16,5 @@ public enum RealtyKind {
     // Аренда
     RENT,
     // У родственников
-    RELATIONALS;
+    RELATIONALS
 }

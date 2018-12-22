@@ -31,7 +31,7 @@ import java.util.*;
  * properties.
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class CollectionContainer implements Container, Container.Ordered,

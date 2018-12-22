@@ -30,7 +30,7 @@ import java.util.Optional;
  * Time: 12:15
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class CompanyField extends ExtaCustomField<Company> {

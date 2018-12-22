@@ -4,7 +4,7 @@ package ru.extas.model.security;
  * Раздел/подраздел системы доступ к которому предоставляется
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public enum ExtaDomain {

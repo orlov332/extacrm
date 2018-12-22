@@ -17,7 +17,7 @@ import java.util.List;
  * Интерфейс к страховым полисам БСО
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

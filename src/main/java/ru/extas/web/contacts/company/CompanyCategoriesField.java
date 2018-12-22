@@ -49,7 +49,7 @@ import static ru.extas.server.ServiceLocator.lookup;
             refreshContainer(selected);
         });
 
-        final Set<String> set = getValue() != null ? getValue() : null;
+        final Set<String> set = getValue();
         if (set != null) {
             tokenField.setValue(newHashSet(set));
         }

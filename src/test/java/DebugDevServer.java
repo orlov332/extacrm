@@ -10,7 +10,7 @@ import com.google.i18n.phonenumbers.Phonenumber;
  * <p>DebugDevServer class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.2.9
  */
 public class DebugDevServer {

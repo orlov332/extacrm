@@ -19,7 +19,7 @@ import ru.extas.web.tasks.TasksGrid;
  * Реализует домашний экран CRM
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class HomeView extends ExtaAbstractView {

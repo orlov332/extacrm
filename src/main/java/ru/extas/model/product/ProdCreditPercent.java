@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * @author Valery Orlov
  *         Date: 06.02.14
  *         Time: 12:55
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

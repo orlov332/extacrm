@@ -39,7 +39,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Определяет кнверторы по умолчанию
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ExtaConverterFactory extends DefaultConverterFactory {

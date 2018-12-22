@@ -17,7 +17,7 @@ import java.util.Locale;
  * Конвертер для отображения BigDecimal процентов в элементах UI
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

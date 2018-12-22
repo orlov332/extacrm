@@ -7,7 +7,7 @@ import ru.extas.model.security.ExtaDomain;
  * <p>Abstract AbstractTabInfo class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class SubdomainInfoImpl implements SubdomainInfo {

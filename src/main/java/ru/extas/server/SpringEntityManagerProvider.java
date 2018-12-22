@@ -12,7 +12,7 @@ import javax.persistence.PersistenceContext;
  * @author Valery Orlov
  *         Date: 21.11.13
  *         Time: 12:30
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Service

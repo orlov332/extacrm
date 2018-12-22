@@ -23,7 +23,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Реализует экран контактов
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ContactsView extends SubdomainView {

@@ -46,7 +46,7 @@ import static org.apache.commons.collections.CollectionUtils.isEmpty;
  * @author Valery Orlov
  *         Date: 24.10.13
  *         Time: 0:33
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

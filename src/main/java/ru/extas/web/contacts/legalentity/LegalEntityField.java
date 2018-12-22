@@ -28,7 +28,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 27.03.2014
  *         Time: 0:45
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public class LegalEntityField extends ExtaCustomField<LegalEntity> {

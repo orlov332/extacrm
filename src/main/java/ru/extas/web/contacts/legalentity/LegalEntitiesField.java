@@ -17,7 +17,7 @@ import java.util.Set;
  * @author Valery Orlov
  *         Date: 17.02.14
  *         Time: 20:03
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class LegalEntitiesField extends CustomField<Set> {

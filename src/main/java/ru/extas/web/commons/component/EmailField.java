@@ -15,7 +15,7 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  * @author Valery Orlov
  *         Date: 23.10.13
  *         Time: 13:15
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class EmailField extends ExtaCustomField<String> {

@@ -15,7 +15,7 @@ import ru.extas.model.security.UserProfile;
  * @author Valery Orlov
  *         Date: 19.12.13
  *         Time: 12:33
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

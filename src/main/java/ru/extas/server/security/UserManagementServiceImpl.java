@@ -26,7 +26,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * Имплементация сервиса управления пользователями и правами доступа
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @SuppressWarnings("unchecked")

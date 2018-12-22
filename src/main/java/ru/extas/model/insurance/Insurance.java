@@ -23,7 +23,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Полис страхования
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

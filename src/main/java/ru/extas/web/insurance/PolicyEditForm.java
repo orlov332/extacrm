@@ -22,7 +22,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Ввод редактирование полиса в рамках БСО
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class PolicyEditForm extends ExtaEditForm<Policy> {

@@ -15,5 +15,5 @@ public enum MaritalStatus {
     // разведен(а)
     DIVORCED,
     // вдовец/вдова
-    WIDOWED;
+    WIDOWED
 }

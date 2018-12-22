@@ -15,7 +15,7 @@ import javax.validation.constraints.Size;
  * Данные о квитанции форма № А-7
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

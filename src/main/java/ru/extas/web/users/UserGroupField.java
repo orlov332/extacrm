@@ -19,7 +19,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * @author Valery Orlov
  *         Date: 24.06.2014
  *         Time: 23:30
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class UserGroupField extends CustomField<Set> {

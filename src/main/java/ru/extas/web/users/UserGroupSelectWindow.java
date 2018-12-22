@@ -18,7 +18,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * @author Valery Orlov
  *         Date: 27.06.2014
  *         Time: 12:35
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class UserGroupSelectWindow extends CloseOnlyWindow {

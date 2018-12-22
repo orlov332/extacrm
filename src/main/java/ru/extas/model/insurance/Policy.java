@@ -17,7 +17,7 @@ import javax.validation.constraints.Size;
  * Полис страхования в БСО
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

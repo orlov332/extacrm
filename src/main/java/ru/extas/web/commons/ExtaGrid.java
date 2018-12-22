@@ -66,7 +66,7 @@ import static ru.extas.web.commons.TableUtils.fullInitTable;
  * @author Valery Orlov
  *         Date: 15.10.13
  *         Time: 17:48
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class ExtaGrid<TEntity> extends CustomComponent implements ExtaGridFilterPanel.IFilterGrid {
@@ -187,7 +187,7 @@ public abstract class ExtaGrid<TEntity> extends CustomComponent implements ExtaG
         this(entityClass, null);
     }
 
-    public ExtaGrid(Class<TEntity> entityClass, String gridIdSuffix) {
+    public ExtaGrid(final Class<TEntity> entityClass, final String gridIdSuffix) {
         this.entityClass = entityClass;
         this.gridIdSuffix = gridIdSuffix;
 

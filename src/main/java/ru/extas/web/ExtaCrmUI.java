@@ -53,7 +53,7 @@ import static ru.extas.web.UiUtils.initUi;
  * Основной класс приложения
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

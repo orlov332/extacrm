@@ -18,7 +18,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Реализует экран "Справочник техники"
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.5
  */
 public class MotorView extends SubdomainView {

@@ -19,7 +19,7 @@ import ru.extas.web.commons.container.ExtaDbContainer;
  * Компонент выбора продукта
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class ProductField<TProduct extends Product> extends ExtaCustomField<TProduct> {

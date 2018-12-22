@@ -11,7 +11,7 @@ import ru.extas.web.commons.ExtaTheme;
  * @author Valery Orlov
  *         Date: 14.04.2014
  *         Time: 13:56
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class ErrorView extends ExtaAbstractView {

@@ -7,7 +7,7 @@ package ru.extas.model.security;
  * Перечислитель ролей пользователей
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public enum UserRole {
@@ -44,7 +44,7 @@ public enum UserRole {
         throw new IllegalArgumentException("There's no user role for name: " + name);
     }
 
-    private UserRole(final String name) {
+    UserRole(final String name) {
         this.name = name;
     }
 

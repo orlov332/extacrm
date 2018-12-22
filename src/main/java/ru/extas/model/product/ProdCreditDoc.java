@@ -12,7 +12,7 @@ import javax.validation.constraints.Size;
  * @author Valery Orlov
  *         Date: 07.02.14
  *         Time: 14:43
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

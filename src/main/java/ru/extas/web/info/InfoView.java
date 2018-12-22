@@ -15,7 +15,7 @@ import ru.extas.web.commons.ExtaTheme;
  * Реализует экран информационных материалов
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class InfoView extends ExtaAbstractView {

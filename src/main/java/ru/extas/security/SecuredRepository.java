@@ -15,7 +15,7 @@ import java.util.List;
  * @author Valery Orlov
  *         Date: 03.04.2014
  *         Time: 13:45
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public interface SecuredRepository<Entity extends SecuredObject> {

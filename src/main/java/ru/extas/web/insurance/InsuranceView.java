@@ -27,7 +27,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Раздел страхование
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class InsuranceView extends SubdomainView {

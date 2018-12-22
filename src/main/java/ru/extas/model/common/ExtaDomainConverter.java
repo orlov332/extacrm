@@ -14,7 +14,7 @@ import javax.persistence.Converter;
  * Time: 14:37
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Converter(autoApply = true)

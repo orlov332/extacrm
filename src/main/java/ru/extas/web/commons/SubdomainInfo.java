@@ -3,7 +3,7 @@
  * <p>TabInfo interface.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 package ru.extas.web.commons;
@@ -18,14 +18,14 @@ public interface SubdomainInfo extends Serializable {
      *
      * @return a {@link java.lang.String} object.
      */
-    public String getCaption();
+    String getCaption();
 
     /**
      * <p>createGrid.</p>
      *
      * @return a {@link com.vaadin.ui.Component} object.
      */
-    public ExtaGrid createGrid();
+    ExtaGrid createGrid();
 
 	/**
 	 * <p>getDomain.</p>

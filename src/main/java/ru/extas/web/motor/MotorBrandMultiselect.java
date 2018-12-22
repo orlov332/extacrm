@@ -21,7 +21,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 17.02.14
  *         Time: 16:44
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class MotorBrandMultiselect extends ExtaCustomField<Set> {

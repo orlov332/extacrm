@@ -23,7 +23,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * <p>FormTransferGrid class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class FormTransferGrid extends ExtaGrid<FormTransfer> {

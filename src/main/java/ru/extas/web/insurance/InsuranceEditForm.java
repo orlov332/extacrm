@@ -41,7 +41,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Форма ввода/редактирования имущественной страховки
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public class InsuranceEditForm extends ExtaEditForm<Insurance> {

@@ -21,7 +21,7 @@ import java.util.Collection;
  * @author Valery Orlov
  *         Date: 09.04.2014
  *         Time: 18:48
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 @RestController

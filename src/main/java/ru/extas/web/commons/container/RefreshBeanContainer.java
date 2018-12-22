@@ -6,7 +6,7 @@ import java.util.Collection;
  * <p>RefreshBeanContainer class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class RefreshBeanContainer<BEANTYPE> extends ExtaBeanContainer<BEANTYPE> {

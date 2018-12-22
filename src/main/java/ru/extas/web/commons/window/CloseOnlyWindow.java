@@ -9,7 +9,7 @@ import ru.extas.web.commons.Fontello;
  * Стандартное окошко OK/Отмена
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class CloseOnlyWindow extends Window {

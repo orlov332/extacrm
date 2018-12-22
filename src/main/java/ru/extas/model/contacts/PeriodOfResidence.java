@@ -13,5 +13,5 @@ public enum PeriodOfResidence {
     // до 5 лет
     LESS_5,
     // свыше 5 лет
-    FROM_5;
+    FROM_5
 }

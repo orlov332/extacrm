@@ -26,7 +26,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 22.06.2014
  *         Time: 13:19
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class ExtaPermissionField extends CustomField<Set> {

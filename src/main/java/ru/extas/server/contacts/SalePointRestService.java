@@ -31,7 +31,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
  * @author Valery Orlov
  *         Date: 18.03.14
  *         Time: 18:48
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @RestController

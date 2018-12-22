@@ -10,7 +10,7 @@ import ru.extas.model.notification.Notice;
  * Created by Valery on 04.06.2014.
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 @Repository

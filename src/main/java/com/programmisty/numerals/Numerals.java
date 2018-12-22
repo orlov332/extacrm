@@ -42,7 +42,7 @@ import java.math.BigDecimal;
  * </pre>
  *
  * @author vit
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class Numerals {

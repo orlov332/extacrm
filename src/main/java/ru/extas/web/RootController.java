@@ -11,7 +11,7 @@ import java.io.IOException;
  * @author Valery Orlov
  *         Date: 14.04.2014
  *         Time: 13:26
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 @Controller

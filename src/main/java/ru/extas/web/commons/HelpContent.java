@@ -18,7 +18,7 @@ import java.io.StringReader;
  * @author Valery Orlov
  *         Date: 11.04.2014
  *         Time: 9:27
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class HelpContent {

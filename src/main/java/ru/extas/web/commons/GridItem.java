@@ -12,7 +12,7 @@ import ru.extas.web.commons.container.jpa.JpaEntityItem;
  * @author Valery Orlov
  *         Date: 19.02.14
  *         Time: 21:52
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class GridItem<BT> extends BeanItem<BT> {
@@ -23,7 +23,7 @@ public class GridItem<BT> extends BeanItem<BT> {
      * @param item a {@link com.vaadin.data.Item} object.
      */
     public GridItem(final Item item) {
-        super(GridItem.<BT>extractBean(item));
+        super(GridItem.extractBean(item));
     }
 
     /**

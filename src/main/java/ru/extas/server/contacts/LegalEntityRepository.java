@@ -12,7 +12,7 @@ import ru.extas.model.contacts.LegalEntity;
  * @author Valery Orlov
  *         Date: 18.03.14
  *         Time: 23:52
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

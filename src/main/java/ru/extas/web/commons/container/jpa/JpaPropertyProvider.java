@@ -44,7 +44,7 @@ public class JpaPropertyProvider<TEntityType extends IdentifiedObject> implement
     }
 
     public Class getPropType(final String propertyName) {
-        final String propName = propertyName.toString();
+        final String propName = propertyName;
         final DynaProperty dynaProperty = getDynaClass().getDynaProperty(propName);
         final Class<?> type;
         if (dynaProperty != null)

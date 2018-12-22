@@ -16,7 +16,7 @@ import java.util.List;
  * Управление актами приема передачи БСО
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

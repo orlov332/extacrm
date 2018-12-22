@@ -25,7 +25,7 @@ import java.util.List;
  * @author Valery Orlov
  *         Date: 04.04.2014
  *         Time: 0:42
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 @Component

@@ -12,7 +12,7 @@ import ru.extas.model.security.CuratorsGroup;
  * @author Valery Orlov
  *         Date: 17.06.2014
  *         Time: 16:14
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 @Repository

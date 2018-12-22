@@ -17,7 +17,7 @@ import static org.springframework.util.CollectionUtils.isEmpty;
  * @author Valery Orlov
  *         Date: 22.03.2014
  *         Time: 17:40
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 @MappedSuperclass

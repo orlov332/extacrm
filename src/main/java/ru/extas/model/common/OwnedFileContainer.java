@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @author Valery Orlov
  *         Date: 17.04.2014
  *         Time: 23:15
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 @Entity

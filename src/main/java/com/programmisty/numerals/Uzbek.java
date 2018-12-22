@@ -9,20 +9,20 @@ import static com.programmisty.numerals.Util.toUpperCaseFirstLetter;
  * <p>Uzbek class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class Uzbek extends AbstractNumeral {
-	private static final String EDINICHI[] = { "nol", "bir", "ikki", "uch",
-			"to'rt", "besh", "olti", "etti", "sakkiz", "tuqqiz" };
-	private static final String DESYATKI[] = { "", "o'n", "yigirma", "o'ttiz",
-			"qirq", "ellik", "oltmish", "etmish", "sakson", "to'qson" };
-	private static final String SOTNI[] = { "", "yuz", "ikki yuz", "uch yuz",
-			"to'rt yuz", "besh yuz", "olti yuz", "etti yuz", "sakkiz yuz",
-			"to'qqiz yuz" };
-	private static final String LIONS[] = { "", "ming", "million", "milliard",
-			"trillion", "kvadrillion", "kvintillion", "sekstillion",
-			"septillion", "oktillion", "nonillion", "detsillion" };
+    private static final String[] EDINICHI = {"nol", "bir", "ikki", "uch",
+            "to'rt", "besh", "olti", "etti", "sakkiz", "tuqqiz"};
+    private static final String[] DESYATKI = {"", "o'n", "yigirma", "o'ttiz",
+            "qirq", "ellik", "oltmish", "etmish", "sakson", "to'qson"};
+    private static final String[] SOTNI = {"", "yuz", "ikki yuz", "uch yuz",
+            "to'rt yuz", "besh yuz", "olti yuz", "etti yuz", "sakkiz yuz",
+            "to'qqiz yuz"};
+    private static final String[] LIONS = {"", "ming", "million", "milliard",
+            "trillion", "kvadrillion", "kvintillion", "sekstillion",
+            "septillion", "oktillion", "nonillion", "detsillion"};
 
 	/** {@inheritDoc} */
 	@Override
@@ -109,7 +109,7 @@ public class Uzbek extends AbstractNumeral {
 		final int k = roundKopeyki(bi);
 		assert (k >= 0 && k < 100);
 		
-		sb.append(String.valueOf(k)+" tiyin");
+		sb.append(k +" tiyin");
 		toUpperCaseFirstLetter(sb);
 		return sb.toString();
 	}

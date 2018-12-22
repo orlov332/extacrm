@@ -33,7 +33,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * <p>PersonEditForm class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @SuppressWarnings("FieldCanBeLocal")

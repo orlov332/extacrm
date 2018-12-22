@@ -12,7 +12,7 @@ import java.util.Locale;
  * <p>DateToJodaLDConverter class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class DateToJodaLDConverter implements Converter<Date, LocalDate> {

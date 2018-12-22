@@ -20,7 +20,7 @@ import static ru.extas.web.commons.GridItem.extractBean;
  * Реализует редактирование списка брендов
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class MotorBrandObjMultiselect extends ExtaCustomField<Set> {

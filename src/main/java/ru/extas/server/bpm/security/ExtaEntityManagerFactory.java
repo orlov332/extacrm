@@ -10,7 +10,7 @@ import org.activiti.engine.impl.persistence.entity.UserIdentityManager;
  * @author Valery Orlov
  *         Date: 14.11.13
  *         Time: 18:51
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ExtaEntityManagerFactory implements SessionFactory {
@@ -23,6 +23,6 @@ public class ExtaEntityManagerFactory implements SessionFactory {
     /** {@inheritDoc} */
     @Override
     public Session openSession() {
-        return (Session) new ExtaUserEntityManager();
+        return new ExtaUserEntityManager();
     }
 }

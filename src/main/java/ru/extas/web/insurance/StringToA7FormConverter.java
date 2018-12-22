@@ -16,7 +16,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Конвертируем Квитанцию А-7 в строку (номер квитанции)
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

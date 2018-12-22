@@ -9,7 +9,7 @@ import ru.extas.security.SecuredRepository;
  * @author Valery Orlov
  *         Date: 19.12.13
  *         Time: 11:55
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public interface InsuranceService extends SecuredRepository<Insurance> {

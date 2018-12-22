@@ -16,7 +16,7 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  * @author Valery Orlov
  *         Date: 17.04.2014
  *         Time: 19:56
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 @Component

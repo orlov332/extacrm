@@ -13,7 +13,7 @@ import ru.extas.model.sale.Sale;
  * @author Valery Orlov
  *         Date: 24.10.13
  *         Time: 0:31
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Repository

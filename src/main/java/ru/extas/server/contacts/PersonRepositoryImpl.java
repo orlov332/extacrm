@@ -22,7 +22,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * @author Valery Orlov
  *         Date: 03.04.2014
  *         Time: 12:39
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 @Component

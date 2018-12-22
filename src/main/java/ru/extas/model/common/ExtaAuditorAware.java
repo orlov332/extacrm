@@ -11,7 +11,7 @@ import javax.inject.Inject;
  * @author Valery Orlov
  *         Date: 03.04.2014
  *         Time: 9:47
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public class ExtaAuditorAware implements AuditorAware<String> {

@@ -11,7 +11,7 @@ import java.math.BigDecimal;
  * Калькулятор страховых премий
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public interface InsuranceCalculator {

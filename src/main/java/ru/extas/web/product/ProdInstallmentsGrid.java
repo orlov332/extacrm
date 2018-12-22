@@ -18,7 +18,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * @author Valery Orlov
  *         Date: 16.01.14
  *         Time: 20:33
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class ProdInstallmentsGrid extends ExtaGrid<ProdInstallments> {

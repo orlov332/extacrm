@@ -9,7 +9,7 @@ import java.util.Set;
  * Интерфейс управления пользователями и правами доступа
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public interface UserManagementService {

@@ -11,7 +11,7 @@ import java.util.Locale;
  * @author Valery Orlov
  *         Date: 19.08.13
  *         Time: 20:07
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

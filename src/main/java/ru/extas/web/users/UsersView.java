@@ -18,7 +18,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Реализует экран управления пользователями и правами доступа
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class UsersView extends SubdomainView {

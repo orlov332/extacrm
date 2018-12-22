@@ -11,7 +11,7 @@ import ru.extas.web.commons.converters.PhoneConverter;
  * Опции отображения контактов в списке
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class PersonDataDecl extends GridDataDecl {

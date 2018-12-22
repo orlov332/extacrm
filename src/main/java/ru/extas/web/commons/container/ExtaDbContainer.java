@@ -19,7 +19,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * @author Valery Orlov
  *         Date: 02.04.2014
  *         Time: 18:11
- * @version $Id: $Id
+ *
  * @since 0.3.0
  */
 public class ExtaDbContainer<TEntityType extends IdentifiedObject> extends JpaJazyContainer<TEntityType> implements ArchivedContainer {

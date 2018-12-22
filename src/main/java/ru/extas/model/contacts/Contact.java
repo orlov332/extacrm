@@ -17,7 +17,7 @@ import javax.validation.constraints.Size;
  * Общие данные для контактов
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @MappedSuperclass

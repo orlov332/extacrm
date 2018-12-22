@@ -23,7 +23,7 @@ import java.util.List;
  * Time: 22:50
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class SecuredDataContainer<TEntityType extends IdentifiedObject> extends ExtaDbContainer<TEntityType> {

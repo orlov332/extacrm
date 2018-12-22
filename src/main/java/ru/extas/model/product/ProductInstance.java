@@ -17,7 +17,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * @author Valery Orlov
  *         Date: 21.01.14
  *         Time: 12:16
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

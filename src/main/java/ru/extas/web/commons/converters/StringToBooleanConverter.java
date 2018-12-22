@@ -12,7 +12,7 @@ import java.util.Locale;
  * Простая конвертация флага в строку
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

@@ -12,7 +12,7 @@ import ru.extas.web.commons.converters.String2EnumConverter;
  * Конвертирует целевые объекты в соответствующее перечисление
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

@@ -9,7 +9,7 @@ import org.vaadin.viritin.fields.MTextField;
  * Преднастроенный компонент ввода текста
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class EditField extends MTextField {

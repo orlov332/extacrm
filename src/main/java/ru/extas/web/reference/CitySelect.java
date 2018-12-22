@@ -12,7 +12,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 23.10.13
  *         Time: 22:31
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class CitySelect extends ComboBox {

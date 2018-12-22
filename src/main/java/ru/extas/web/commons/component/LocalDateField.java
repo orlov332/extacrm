@@ -10,7 +10,7 @@ import org.joda.time.LocalDate;
  * Преднастроенный компонент ввода даты
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class LocalDateField extends PopupDateField {

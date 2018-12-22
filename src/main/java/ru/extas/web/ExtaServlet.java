@@ -13,7 +13,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 14.07.2014
  *         Time: 10:47
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class ExtaServlet extends VaadinServlet implements SessionInitListener {

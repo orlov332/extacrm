@@ -63,7 +63,7 @@ import static ru.extas.web.UiUtils.showValidationError;
  * @author Valery Orlov
  * Date: 14.04.2014
  * Time: 16:43
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 @Component
@@ -78,7 +78,7 @@ public class LeadInputFormUI extends UI {
         private final Lead lead;
         private final MotorInstance motor;
 
-        public LeadWrapper(Lead lead) {
+        public LeadWrapper(final Lead lead) {
             this.lead = lead;
             this.motor = lead.getMotorInstances().get(0);
         }
@@ -87,7 +87,7 @@ public class LeadInputFormUI extends UI {
             return lead.getComment();
         }
 
-        public void setComment(String comment) {
+        public void setComment(final String comment) {
             lead.setComment(comment);
         }
 
@@ -95,7 +95,7 @@ public class LeadInputFormUI extends UI {
             return lead.getRegion();
         }
 
-        public void setRegion(String region) {
+        public void setRegion(final String region) {
             lead.setRegion(region);
         }
 
@@ -103,7 +103,7 @@ public class LeadInputFormUI extends UI {
             return lead.getPointOfSale();
         }
 
-        public void setPointOfSale(String pointOfSale) {
+        public void setPointOfSale(final String pointOfSale) {
             lead.setPointOfSale(pointOfSale);
         }
 
@@ -119,7 +119,7 @@ public class LeadInputFormUI extends UI {
             return lead.getContactPhone();
         }
 
-        public void setContactPhone(String contactPhone) {
+        public void setContactPhone(final String contactPhone) {
             lead.setContactPhone(contactPhone);
         }
 
@@ -127,7 +127,7 @@ public class LeadInputFormUI extends UI {
             return lead.getContactEmail();
         }
 
-        public void setContactEmail(String contactEmail) {
+        public void setContactEmail(final String contactEmail) {
             lead.setContactEmail(contactEmail);
         }
 
@@ -135,7 +135,7 @@ public class LeadInputFormUI extends UI {
             return lead.getVendor();
         }
 
-        public void setVendor(SalePoint vendor) {
+        public void setVendor(final SalePoint vendor) {
             lead.setVendor(vendor);
         }
 
@@ -143,7 +143,7 @@ public class LeadInputFormUI extends UI {
             return motor.getType();
         }
 
-        public void setMotorType(String motorType) {
+        public void setMotorType(final String motorType) {
             motor.setType(motorType);
         }
 
@@ -151,7 +151,7 @@ public class LeadInputFormUI extends UI {
             return motor.getBrand();
         }
 
-        public void setMotorBrand(String motorBrand) {
+        public void setMotorBrand(final String motorBrand) {
             motor.setBrand(motorBrand);
         }
 
@@ -159,7 +159,7 @@ public class LeadInputFormUI extends UI {
             return motor.getModel();
         }
 
-        public void setMotorModel(String motorModel) {
+        public void setMotorModel(final String motorModel) {
             motor.setModel(motorModel);
         }
 
@@ -167,7 +167,7 @@ public class LeadInputFormUI extends UI {
             return motor.getPrice();
         }
 
-        public void setMotorPrice(BigDecimal motorPrice) {
+        public void setMotorPrice(final BigDecimal motorPrice) {
             motor.setPrice(motorPrice);
         }
     }

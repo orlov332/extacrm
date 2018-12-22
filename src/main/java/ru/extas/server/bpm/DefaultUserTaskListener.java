@@ -11,7 +11,7 @@ import javax.inject.Inject;
  * @author Valery Orlov
  *         Date: 19.11.13
  *         Time: 13:28
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class DefaultUserTaskListener {

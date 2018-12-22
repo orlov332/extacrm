@@ -28,7 +28,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * <p>UserEditForm class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class UserEditForm extends ExtaEditForm<UserProfile> {

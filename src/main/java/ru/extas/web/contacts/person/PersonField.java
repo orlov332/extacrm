@@ -27,7 +27,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Time: 12:15
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class PersonField extends ExtaCustomField<Person> {

@@ -22,7 +22,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * @author Valery Orlov
  *         Date: 15.10.13
  *         Time: 12:00
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class SubdomainView extends ExtaAbstractView {

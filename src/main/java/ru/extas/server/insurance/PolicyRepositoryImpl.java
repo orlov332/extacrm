@@ -19,7 +19,7 @@ import java.util.List;
  * <p>PolicyServiceImpl class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

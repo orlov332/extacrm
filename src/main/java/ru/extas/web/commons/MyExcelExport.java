@@ -21,7 +21,7 @@ import java.util.Date;
  * @author Valery Orlov
  *         Date: 12.05.2014
  *         Time: 16:22
- * @version $Id: $Id
+ *
  * @since 0.5.0
  */
 public class MyExcelExport extends ExcelExport {
@@ -141,10 +141,7 @@ public class MyExcelExport extends ExcelExport {
         if (isIntegerLongShortOrBigDecimal(type)) {
             return true;
         }
-        if (isDoubleOrFloat(type)) {
-            return true;
-        }
-        return false;
+        return isDoubleOrFloat(type);
     }
 
     private boolean isIntegerLongShortOrBigDecimal(final Class<?> type) {
@@ -157,10 +154,7 @@ public class MyExcelExport extends ExcelExport {
         if ((Short.class.equals(type)) || (short.class.equals(type))) {
             return true;
         }
-        if ((BigDecimal.class.equals(type)) || (BigDecimal.class.equals(type))) {
-            return true;
-        }
-        return false;
+        return (BigDecimal.class.equals(type)) || (BigDecimal.class.equals(type));
     }
 
     /**
@@ -173,10 +167,7 @@ public class MyExcelExport extends ExcelExport {
         if ((Double.class.equals(type)) || (double.class.equals(type))) {
             return true;
         }
-        if ((Float.class.equals(type)) || (float.class.equals(type))) {
-            return true;
-        }
-        return false;
+        return (Float.class.equals(type)) || (float.class.equals(type));
     }
 
     private Property getProperty(final Object rootItemId, final Object propId) {

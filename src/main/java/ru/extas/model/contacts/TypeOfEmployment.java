@@ -12,5 +12,5 @@ public enum TypeOfEmployment {
     PERMANENT, // Постоянная (без срока)
     TEMPORARY, // Срочный трудовой договор
     ENTREPRENEUR, // Индивиальный предприниматель
-    PRACTICE; // Частная практика
+    PRACTICE // Частная практика
 }

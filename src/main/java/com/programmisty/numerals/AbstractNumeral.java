@@ -23,7 +23,7 @@ import java.math.BigInteger;
  * <p>Abstract AbstractNumeral class.</p>
  *
  * @author Valery_2
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public abstract class AbstractNumeral {

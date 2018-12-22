@@ -29,7 +29,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Поставщик пользователей из базы данных
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class UserRealm extends AuthorizingRealm {

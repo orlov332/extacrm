@@ -18,7 +18,7 @@ import javax.persistence.MappedSuperclass;
  * Имплементирует макеры изменений.
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 //@EntityListeners(AuditingEntityListener.class)

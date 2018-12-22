@@ -16,7 +16,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * Конвертируем полис БСО в строку
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

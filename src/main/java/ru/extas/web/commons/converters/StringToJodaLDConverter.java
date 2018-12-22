@@ -13,7 +13,7 @@ import java.util.Locale;
  * Обеспечивает преобразование между строкой и <code>org.joda.time.LocalDate</code>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Component

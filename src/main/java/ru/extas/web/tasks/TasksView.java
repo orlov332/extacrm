@@ -18,7 +18,7 @@ import static com.google.common.collect.Lists.newArrayList;
  * Реализует раздел задач
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class TasksView extends SubdomainView {

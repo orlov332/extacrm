@@ -21,7 +21,7 @@ import static ru.extas.server.ServiceLocator.lookup;
  * <p>A7FormGrid class.</p>
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class A7FormGrid extends ExtaGrid<A7Form> {

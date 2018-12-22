@@ -15,7 +15,7 @@ import static com.google.common.collect.Sets.newLinkedHashSet;
  * Совокупная информация о пользователе
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Entity

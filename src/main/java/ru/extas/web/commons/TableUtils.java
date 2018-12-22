@@ -21,7 +21,7 @@ import java.util.Set;
  * @author Valery Orlov
  *         Date: 09.12.13
  *         Time: 12:53
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class TableUtils {

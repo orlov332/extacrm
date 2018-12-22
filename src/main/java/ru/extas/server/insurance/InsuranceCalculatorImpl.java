@@ -21,7 +21,7 @@ import static com.google.common.collect.Sets.newHashSet;
  * Реализация калькулятора страховых премий
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 @Service

@@ -13,7 +13,7 @@ import java.util.List;
  * @author Valery Orlov
  *         Date: 27.09.13
  *         Time: 9:14
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class NotificationUtil {

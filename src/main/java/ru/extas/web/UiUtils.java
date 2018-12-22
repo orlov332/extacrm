@@ -27,7 +27,7 @@ import static ru.extas.web.commons.NotificationUtil.showWarning;
  * @author Valery Orlov
  *         Date: 14.04.2014
  *         Time: 17:04
- * @version $Id: $Id
+ *
  * @since 0.4.2
  */
 public class UiUtils {

@@ -10,7 +10,7 @@ import ru.extas.web.commons.UrlLinkColumnGen;
  * Опции отображения контактов в списке
  *
  * @author Valery Orlov
- * @version $Id: $Id
+ *
  * @since 0.3
  */
 public class CompanyDataDecl extends GridDataDecl {

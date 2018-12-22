@@ -1,6 +1,5 @@
 package ru.extas.model.contacts;
 
-import org.joda.time.LocalDate;
 import ru.extas.model.common.Address;
 import ru.extas.model.common.ArchivedObject;
 import ru.extas.model.common.OwnedFileContainer;
@@ -8,6 +7,7 @@ import ru.extas.model.common.OwnedFileContainer;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 import static com.google.common.collect.Lists.newArrayList;
@@ -732,7 +732,7 @@ public class Person extends Client implements ArchivedObject {
     /**
      * <p>Getter for the field <code>passIssueDate</code>.</p>
      *
-     * @return a {@link org.joda.time.LocalDate} object.
+     * @return a {@link java.time.LocalDate} object.
      */
     public LocalDate getPassIssueDate() {
         return passIssueDate;
@@ -741,7 +741,7 @@ public class Person extends Client implements ArchivedObject {
     /**
      * <p>Setter for the field <code>passIssueDate</code>.</p>
      *
-     * @param passIssueDate a {@link org.joda.time.LocalDate} object.
+     * @param passIssueDate a {@link java.time.LocalDate} object.
      */
     public void setPassIssueDate(final LocalDate passIssueDate) {
         this.passIssueDate = passIssueDate;
@@ -786,7 +786,7 @@ public class Person extends Client implements ArchivedObject {
     /**
      * <p>Getter for the field <code>birthday</code>.</p>
      *
-     * @return a {@link org.joda.time.LocalDate} object.
+     * @return a {@link java.time.LocalDate} object.
      */
     public LocalDate getBirthday() {
         return birthday;
@@ -795,7 +795,7 @@ public class Person extends Client implements ArchivedObject {
     /**
      * <p>Setter for the field <code>birthday</code>.</p>
      *
-     * @param birthday a {@link org.joda.time.LocalDate} object.
+     * @param birthday a {@link java.time.LocalDate} object.
      */
     public void setBirthday(final LocalDate birthday) {
         this.birthday = birthday;

@@ -3,11 +3,11 @@
  */
 package ru.extas.model.insurance;
 
-import org.joda.time.LocalDate;
 import ru.extas.model.common.AuditedObject;
 import ru.extas.model.contacts.Employee;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.List;
 
 import static com.google.common.collect.Lists.newArrayList;

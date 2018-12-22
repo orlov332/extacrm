@@ -1,6 +1,6 @@
 package ru.extas.model.insurance;
 
-import org.joda.time.LocalDate;
+import java.time.LocalDate;
 import ru.extas.model.common.Comment;
 import ru.extas.model.common.OwnedFileContainer;
 import ru.extas.model.contacts.Client;
@@ -426,7 +426,7 @@ public class Insurance extends SecuredObject {
     /**
      * <p>Getter for the field <code>saleDate</code>.</p>
      *
-     * @return a {@link org.joda.time.LocalDate} object.
+     * @return a {@link java.time.LocalDate} object.
      */
     public LocalDate getSaleDate() {
         return saleDate;
@@ -435,7 +435,7 @@ public class Insurance extends SecuredObject {
     /**
      * <p>Setter for the field <code>saleDate</code>.</p>
      *
-     * @param saleDate a {@link org.joda.time.LocalDate} object.
+     * @param saleDate a {@link java.time.LocalDate} object.
      */
     public void setSaleDate(final LocalDate saleDate) {
         this.saleDate = saleDate;

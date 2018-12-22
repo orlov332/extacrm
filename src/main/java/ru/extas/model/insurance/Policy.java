@@ -3,7 +3,6 @@
  */
 package ru.extas.model.insurance;
 
-import org.joda.time.DateTime;
 import ru.extas.model.common.AuditedObject;
 
 import javax.persistence.Column;

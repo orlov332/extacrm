@@ -1,6 +1,5 @@
 package ru.extas.model.contacts;
 
-import org.joda.time.LocalDate;
 import ru.extas.model.common.IdentifiedObject;
 
 import javax.persistence.*;

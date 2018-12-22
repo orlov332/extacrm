@@ -3,7 +3,6 @@
  */
 package ru.extas.model.common;
 
-import org.joda.time.DateTime;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedBy;
@@ -12,6 +11,8 @@ import org.springframework.data.domain.Auditable;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
+import java.time.ZonedDateTime;
+import java.util.Optional;
 
 /**
  * Базовый класс для всех сущностей.
@@ -23,12 +24,12 @@ import javax.persistence.MappedSuperclass;
  */
 //@EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
-public abstract class AuditedObject extends IdentifiedObject implements Auditable<String, String> {
+public abstract class AuditedObject extends IdentifiedObject implements Auditable<String, String, ZonedDateTime> {
 
     /**
      * Constant <code>LOGIN_LENGTH=50</code>
      */
-    public static final int LOGIN_LENGTH = 50;
+    protected static final int LOGIN_LENGTH = 50;
 
     @CreatedBy
     @Column(name = "CREATED_BY", length = LOGIN_LENGTH)
@@ -36,7 +37,7 @@ public abstract class AuditedObject extends IdentifiedObject implements Auditabl
 
     @CreatedDate
     @Column(name = "CREATED_AT")
-    private DateTime createdDate;
+    private ZonedDateTime createdDate;
 
     @LastModifiedBy
     @Column(name = "MODIFIED_BY", length = LOGIN_LENGTH)
@@ -44,11 +45,11 @@ public abstract class AuditedObject extends IdentifiedObject implements Auditabl
 
     @LastModifiedDate
     @Column(name = "MODIFIED_AT")
-    private DateTime lastModifiedDate;
+    private ZonedDateTime lastModifiedDate;
 
     @Override
-    public String getCreatedBy() {
-        return createdBy;
+    public Optional<String> getCreatedBy() {
+        return Optional.ofNullable(createdBy);
     }
 
     @Override
@@ -58,19 +59,19 @@ public abstract class AuditedObject extends IdentifiedObject implements Auditabl
     }
 
     @Override
-    public DateTime getCreatedDate() {
-        return createdDate;
+    public Optional<ZonedDateTime> getCreatedDate() {
+        return Optional.ofNullable(createdDate);
     }
 
     @Override
-    public void setCreatedDate(final DateTime creationDate) {
+    public void setCreatedDate(final ZonedDateTime creationDate) {
         if (this.createdDate == null)
             this.createdDate = creationDate;
     }
 
     @Override
-    public String getLastModifiedBy() {
-        return lastModifiedBy;
+    public Optional<String> getLastModifiedBy() {
+        return Optional.ofNullable(lastModifiedBy);
     }
 
     @Override
@@ -79,12 +80,12 @@ public abstract class AuditedObject extends IdentifiedObject implements Auditabl
     }
 
     @Override
-    public DateTime getLastModifiedDate() {
-        return lastModifiedDate;
+    public Optional<ZonedDateTime> getLastModifiedDate() {
+        return Optional.ofNullable(lastModifiedDate);
     }
 
     @Override
-    public void setLastModifiedDate(final DateTime lastModifiedDate) {
+    public void setLastModifiedDate(final ZonedDateTime lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
     }
 }

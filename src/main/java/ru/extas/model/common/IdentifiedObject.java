@@ -1,6 +1,5 @@
 package ru.extas.model.common;
 
-import org.eclipse.persistence.annotations.UuidGenerator;
 import org.springframework.data.domain.Persistable;
 
 import javax.persistence.*;
@@ -20,7 +19,6 @@ import static com.google.common.base.Strings.isNullOrEmpty;
  */
 @MappedSuperclass
 @Access(AccessType.FIELD)
-@UuidGenerator(name = "system-uuid")
 public class IdentifiedObject implements Persistable<String> {
 
     private static final long serialVersionUID = 9098736299506726746L;

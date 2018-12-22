@@ -3,7 +3,6 @@
  */
 package ru.extas.server.insurance;
 
-import org.joda.time.DateTime;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.data.jpa.repository.JpaRepository;

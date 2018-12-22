@@ -1,12 +1,12 @@
 package ru.extas.model.contacts;
 
-import org.joda.time.LocalDate;
 import ru.extas.model.common.Address;
 import ru.extas.model.common.OwnedFileContainer;
 import ru.extas.model.security.UserProfile;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;
+import java.time.LocalDate;
 import java.util.List;
 
 import static com.google.common.collect.Lists.newArrayList;
@@ -77,7 +77,7 @@ public class Employee extends Contact {
     private LocalDate passIssueDate;
 
     // кем выдан
-    @Column(name = "PASS_ISSUED_BY", length = 255)
+    @Column(name = "PASS_ISSUED_BY")
     @Size(max = 255)
     private String passIssuedBy;
 

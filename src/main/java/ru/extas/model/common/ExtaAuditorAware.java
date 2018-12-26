@@ -4,6 +4,7 @@ import org.springframework.data.domain.AuditorAware;
 import ru.extas.server.security.UserManagementService;
 
 import javax.inject.Inject;
+import java.util.Optional;
 
 /**
  * Поставляет текущего пользователя для аудита Spring Data
@@ -21,10 +22,10 @@ public class ExtaAuditorAware implements AuditorAware<String> {
 
     /** {@inheritDoc} */
     @Override
-    public String getCurrentAuditor() {
+    public Optional<String> getCurrentAuditor() {
         if (userService.isUserAuthenticated())
-            return userService.getCurrentUserLogin();
+            return Optional.ofNullable(userService.getCurrentUserLogin());
         else
-            return "admin";
+            return Optional.of("admin");
     }
 }

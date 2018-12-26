@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 import ru.extas.model.insurance.Policy;
 
+import java.time.ZonedDateTime;
 import java.util.List;
 
 /**
@@ -41,5 +42,5 @@ public interface PolicyRepository extends JpaRepository<Policy, String>, PolicyS
             "WHERE p.issueDate IS NULL " +
             "AND (p.bookTime IS NULL OR p.bookTime < ?1) " +
             "ORDER BY p.bookTime, p.regNum")
-    List<Policy> findAvailableAtTime(DateTime dateTime);
+    List<Policy> findAvailableAtTime(ZonedDateTime dateTime);
 }

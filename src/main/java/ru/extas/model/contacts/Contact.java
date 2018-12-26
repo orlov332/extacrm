@@ -4,12 +4,12 @@
 package ru.extas.model.contacts;
 
 
-import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.URL;
 import ru.extas.model.security.SecuredObject;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 

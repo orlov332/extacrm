@@ -1,6 +1,3 @@
-/**
- *
- */
 package ru.extas.model.common;
 
 import org.springframework.data.annotation.CreatedBy;

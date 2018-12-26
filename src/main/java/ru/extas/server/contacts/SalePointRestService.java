@@ -13,7 +13,7 @@ import ru.extas.model.contacts.SalePoint;
 import ru.extas.server.common.AddressAccessService;
 import ru.extas.server.motor.MotorBrandRepository;
 import ru.extas.server.references.CategoryService;
-import ru.extas.web.commons.HelpContent;
+import ru.extas.utils.HelpContent;
 
 import javax.inject.Inject;
 import java.io.IOException;
@@ -177,7 +177,7 @@ public class SalePointRestService {
 
         Pageable pageable = null;
         if(page != null && size != null)
-            pageable = new PageRequest(page, size);
+            pageable = PageRequest.of(page, size);
 
         if (isEmpty(region) && isEmpty(brands))
             salePoints = repository.findActual(CategoryService.COMPANY_CAT_DEALER, pageable);

@@ -5,6 +5,7 @@ import ru.extas.model.common.IdentifiedObject;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.time.LocalDate;
 
 /**
  * @author Valery Orlov

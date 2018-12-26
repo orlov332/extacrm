@@ -3,8 +3,9 @@
  */
 package ru.extas.server;
 
-import com.vaadin.server.VaadinServlet;
+//import com.vaadin.server.VaadinServlet;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.context.ContextLoader;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
@@ -31,12 +32,14 @@ public final class ServiceLocator {
 	 */
 	public static <TServiceType> TServiceType lookup(final Class<TServiceType> srvType) {
 
-		final VaadinServlet vaadinServlet = VaadinServlet.getCurrent();
-		if (vaadinServlet == null) {
-			logger.error("Couldn't get current instance of VaadinServlet");
-			throw new IllegalStateException("Couldn't get current instance of VaadinServlet");
-		}
-		final WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(vaadinServlet.getServletContext());
+//		final VaadinServlet vaadinServlet = VaadinServlet.getCurrent();
+//		if (vaadinServlet == null) {
+//			logger.error("Couldn't get current instance of VaadinServlet");
+//			throw new IllegalStateException("Couldn't get current instance of VaadinServlet");
+//		}
+//		final WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(vaadinServlet.getServletContext());
+
+		final WebApplicationContext context = ContextLoader.getCurrentWebApplicationContext();
 
 		return context.getBean(srvType);
 	}
@@ -51,13 +54,14 @@ public final class ServiceLocator {
 	 */
 	public static <TServiceType> TServiceType lookup(final String name, final Class<TServiceType> srvType) {
 
-		final VaadinServlet vaadinServlet = VaadinServlet.getCurrent();
-		if (vaadinServlet == null) {
-			logger.error("Couldn't get current instance of VaadinServlet");
-			throw new IllegalStateException("Couldn't get current instance of VaadinServlet");
-		}
-		final WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(vaadinServlet.getServletContext());
+//		final VaadinServlet vaadinServlet = VaadinServlet.getCurrent();
+//		if (vaadinServlet == null) {
+//			logger.error("Couldn't get current instance of VaadinServlet");
+//			throw new IllegalStateException("Couldn't get current instance of VaadinServlet");
+//		}
+//		final WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(vaadinServlet.getServletContext());
 
+		final WebApplicationContext context = ContextLoader.getCurrentWebApplicationContext();
 		return context.getBean(name, srvType);
 	}
 }

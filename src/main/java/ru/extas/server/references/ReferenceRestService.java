@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.extas.server.common.AddressAccessService;
 import ru.extas.server.motor.MotorBrandRepository;
 import ru.extas.server.motor.MotorTypeRepository;
-import ru.extas.web.commons.HelpContent;
+import ru.extas.utils.HelpContent;
 
 import javax.inject.Inject;
 import java.io.IOException;

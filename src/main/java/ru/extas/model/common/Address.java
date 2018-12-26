@@ -17,14 +17,14 @@ import javax.validation.constraints.Size;
  * @since 2.0
  * @version 2.0
  */
+@Entity
+@Table(name = "ADDRESS")
+@JsonDeserialize(using = AddressJsonDeserializer.class)
 @Builder
 @Getter
 @Setter
-@Entity
-@Table(name = "ADDRESS")
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonDeserialize(using = AddressJsonDeserializer.class)
 public class Address extends AuditedObject {
 
     public static final int FIAS_ID_LEN = 36;

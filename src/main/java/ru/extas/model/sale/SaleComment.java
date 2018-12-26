@@ -21,10 +21,10 @@ public class SaleComment extends Comment {
 
     public SaleComment(final Comment comment) {
         this.setArchived(comment.isArchived());
-        this.setCreatedBy(comment.getCreatedBy());
-        this.setCreatedDate(comment.getCreatedDate());
-        this.setLastModifiedBy(comment.getLastModifiedBy());
-        this.setLastModifiedDate(comment.getLastModifiedDate());
+        this.setCreatedBy(comment.getCreatedBy().orElse(null));
+        this.setCreatedDate(comment.getCreatedDate().orElse(null));
+        this.setLastModifiedBy(comment.getLastModifiedBy().orElse(null));
+        this.setLastModifiedDate(comment.getLastModifiedDate().orElse(null));
         this.setOwnerId(comment.getOwnerId());
         this.setText(comment.getText());
     }

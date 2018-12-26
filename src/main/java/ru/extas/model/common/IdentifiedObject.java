@@ -23,7 +23,7 @@ public class IdentifiedObject implements Persistable<String> {
 
     private static final long serialVersionUID = 9098736299506726746L;
     /** Constant <code>ID_SIZE=50</code> */
-    public static final int ID_SIZE = 50;
+    protected static final int ID_SIZE = 50;
 
     @Id
     @GeneratedValue(generator = "system-uuid")

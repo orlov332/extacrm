@@ -1,7 +1,8 @@
 package db.migration;
 
 import com.google.common.collect.ImmutableMap;
-import org.flywaydb.core.api.migration.spring.SpringJdbcMigration;
+import org.flywaydb.core.api.migration.BaseJavaMigration;
+import org.flywaydb.core.api.migration.Context;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils;
@@ -22,24 +23,17 @@ import static com.google.common.collect.Iterables.getFirst;
  * <p>
  * Created by valery on 23.03.16.
  */
-public class V1_8_0__ConvertOldAddresses implements SpringJdbcMigration {
+public class V1_8_0__ConvertOldAddresses extends BaseJavaMigration {
 
     private final AddressAccessService addressService = new AddressAccessServiceImpl();
 
     private JdbcTemplate template;
     private NamedParameterJdbcTemplate namedTemplate;
 
-    /**
-     * Executes this migration. The execution will automatically take place within a transaction, when the underlying
-     * database supports it.
-     *
-     * @param jdbcTemplate The jdbcTemplate to use to execute statements.
-     * @throws Exception when the migration failed.
-     */
     @Override
-    public void migrate(final JdbcTemplate jdbcTemplate) throws Exception {
-        this.template = jdbcTemplate;
-        this.namedTemplate = new NamedParameterJdbcTemplate(jdbcTemplate);
+    public void migrate(Context context) throws Exception {
+        this.template = new JdbcTemplate(context.getConfiguration().getDataSource());
+        this.namedTemplate = new NamedParameterJdbcTemplate(context.getConfiguration().getDataSource());
 
         // прежде всего дообновляем базу
         // Надо в сущ. адресах найти и дописать данные с типом (регион с типом и т.п.)
@@ -295,4 +289,5 @@ public class V1_8_0__ConvertOldAddresses implements SpringJdbcMigration {
                 SqlParameterSourceUtils.createBatch(updAddrList.toArray()
                 ));
     }
+
 }

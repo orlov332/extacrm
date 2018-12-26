@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.extas.model.insurance.Policy;
 
 import javax.inject.Inject;
+import java.time.ZonedDateTime;
 import java.util.List;
 
 /**
@@ -36,7 +37,7 @@ public class PolicyRepositoryImpl implements PolicyService {
     public List<Policy> loadAvailable() {
         logger.debug("Requesting available policies...");
 
-        final List<Policy> policies = policyRepository.findAvailableAtTime(DateTime.now().minusHours(1));
+        final List<Policy> policies = policyRepository.findAvailableAtTime(ZonedDateTime.now().minusHours(1));
 
         logger.debug("Retrieved {} available policies", policies.size());
         return policies;
@@ -46,7 +47,7 @@ public class PolicyRepositoryImpl implements PolicyService {
     @Transactional
     @Override
     public void bookPolicy(final Policy policy) {
-        policy.setBookTime(DateTime.now());
+        policy.setBookTime(ZonedDateTime.now());
         policyRepository.save(policy);
     }
 
@@ -54,7 +55,7 @@ public class PolicyRepositoryImpl implements PolicyService {
     @Transactional
     @Override
     public void issuePolicy(final Policy policy) {
-        policy.setIssueDate(DateTime.now());
+        policy.setIssueDate(ZonedDateTime.now());
         policyRepository.save(policy);
     }
 

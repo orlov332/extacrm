@@ -63,7 +63,7 @@ public class UserSettingsServiceImpl implements UserSettingsService {
             try {
                 settings = mapper.readValue(data.getSettings(), SettingsInstance.class);
             } catch (final IOException e) {
-                Throwables.propagate(e);
+                throw new RuntimeException(e);
             }
         } else
             settings = defaultMainSettings();
@@ -88,7 +88,7 @@ public class UserSettingsServiceImpl implements UserSettingsService {
         try {
             mapper.writeValue(settingsJson, settings);
         } catch (final IOException e) {
-            Throwables.propagate(e);
+            throw new RuntimeException(e);
         }
         data.setSettings(settingsJson.toString());
         settingsRegistry.save(data);

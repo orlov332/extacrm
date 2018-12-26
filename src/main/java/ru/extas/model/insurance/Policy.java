@@ -10,6 +10,7 @@ import javax.persistence.Entity;
 import javax.persistence.Index;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
+import java.time.ZonedDateTime;
 
 
 /**
@@ -37,11 +38,11 @@ public class Policy extends AuditedObject {
 
     // Время бронирования полиса
     @Column(name = "BOOK_TIME")
-    private DateTime bookTime;
+    private ZonedDateTime bookTime;
 
     // Время реализации полиса
     @Column(name = "ISSUE_DATE")
-    private DateTime issueDate;
+    private ZonedDateTime issueDate;
 
     /**
      * <p>Getter for the field <code>regNum</code>.</p>
@@ -66,7 +67,7 @@ public class Policy extends AuditedObject {
      *
      * @return the bookTime
      */
-    public DateTime getBookTime() {
+    public ZonedDateTime getBookTime() {
         return bookTime;
     }
 
@@ -75,7 +76,7 @@ public class Policy extends AuditedObject {
      *
      * @param bookTime the bookTime to set
      */
-    public void setBookTime(final DateTime bookTime) {
+    public void setBookTime(final ZonedDateTime bookTime) {
         this.bookTime = bookTime;
     }
 
@@ -84,7 +85,7 @@ public class Policy extends AuditedObject {
      *
      * @return the issueDate
      */
-    public DateTime getIssueDate() {
+    public ZonedDateTime getIssueDate() {
         return issueDate;
     }
 
@@ -93,7 +94,7 @@ public class Policy extends AuditedObject {
      *
      * @param issueDate the issueDate to set
      */
-    public void setIssueDate(final DateTime issueDate) {
+    public void setIssueDate(final ZonedDateTime issueDate) {
         this.issueDate = issueDate;
     }
 }

@@ -1,4 +1,4 @@
-package ru.extas.web.commons;
+package ru.extas.utils;
 
 import com.google.common.base.Charsets;
 import com.google.common.io.CharStreams;

@@ -22,7 +22,7 @@ import ru.extas.server.contacts.SalePointRepository;
 import ru.extas.server.motor.MotorBrandRepository;
 import ru.extas.server.motor.MotorTypeRepository;
 import ru.extas.server.security.UserManagementService;
-import ru.extas.web.commons.HelpContent;
+import ru.extas.utils.HelpContent;
 
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
@@ -44,9 +44,8 @@ import static ru.extas.model.common.ModelUtils.evictCache;
  * Предоставляет точку доступа для ввода лида
  *
  * @author Valery Orlov
- *         Date: 18.03.14
- *         Time: 18:48
- *
+ * Date: 18.03.14
+ * Time: 18:48
  * @since 0.3
  */
 @RestController
@@ -345,22 +344,20 @@ public class LeadRestService {
         // Мотосалон (название или id).
         if (!isNullOrEmpty(lead.getDealerId())) {
             // Найти точку продаж по Id
-            final SalePoint salePoint = salePointRepository.findOne(lead.getDealerId());
-            if (salePoint == null)
-                throw new IllegalArgumentException("Id торговой точки не действителен (не найден)");
-            else {
-                newLead.setVendor(salePoint);
-                newLead.setPointOfSale(salePoint.getName());
-                if (salePoint.getPosAddress() != null)
-                    newLead.setRegion(salePoint.getPosAddress().getRegionWithType());
-                // Ответственные по умолчанию
-                final CuratorsGroup curatorsGroup = salePoint.getCuratorsGroup();
-                if (curatorsGroup != null && !curatorsGroup.getCurators().isEmpty()) {
-                    final Iterator<Employee> employeeIterator = curatorsGroup.getCurators().iterator();
-                    newLead.setResponsible(employeeIterator.next());
-                    if (employeeIterator.hasNext())
-                        newLead.setResponsibleAssist(employeeIterator.next());
-                }
+            final SalePoint salePoint = salePointRepository.findById(lead.getDealerId())
+                    .orElseThrow(() -> new IllegalArgumentException("Id торговой точки не действителен (не найден)"));
+
+            newLead.setVendor(salePoint);
+            newLead.setPointOfSale(salePoint.getName());
+            if (salePoint.getPosAddress() != null)
+                newLead.setRegion(salePoint.getPosAddress().getRegionWithType());
+            // Ответственные по умолчанию
+            final CuratorsGroup curatorsGroup = salePoint.getCuratorsGroup();
+            if (curatorsGroup != null && !curatorsGroup.getCurators().isEmpty()) {
+                final Iterator<Employee> employeeIterator = curatorsGroup.getCurators().iterator();
+                newLead.setResponsible(employeeIterator.next());
+                if (employeeIterator.hasNext())
+                    newLead.setResponsibleAssist(employeeIterator.next());
             }
         }
         newLead.setPointOfSale(lead.getDealer());

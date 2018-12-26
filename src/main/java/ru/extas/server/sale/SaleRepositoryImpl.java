@@ -38,7 +38,7 @@ import java.util.Set;
 import static com.google.common.base.Strings.isNullOrEmpty;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Sets.newHashSet;
-import static org.apache.commons.collections.CollectionUtils.isEmpty;
+import static org.springframework.util.CollectionUtils.isEmpty;
 
 /**
  * <p>SaleServiceImpl class.</p>
@@ -98,10 +98,10 @@ public class SaleRepositoryImpl extends AbstractSecuredRepository<Sale> implemen
         for (final ProductInstance instance : lead.getProductInstances()) {
             final ProductInstance productInstance = new ProductInstance();
             productInstance.setArchived(instance.isArchived());
-            productInstance.setCreatedBy(instance.getCreatedBy());
-            productInstance.setCreatedDate(instance.getCreatedDate());
-            productInstance.setLastModifiedBy(instance.getLastModifiedBy());
-            productInstance.setLastModifiedDate(instance.getLastModifiedDate());
+            productInstance.setCreatedBy(instance.getCreatedBy().orElse(null));
+            productInstance.setCreatedDate(instance.getCreatedDate().orElse(null));
+            productInstance.setLastModifiedBy(instance.getLastModifiedBy().orElse(null));
+            productInstance.setLastModifiedDate(instance.getLastModifiedDate().orElse(null));
             productInstance.setSale(sale);
             productInstance.setProduct(instance.getProduct());
             productInstance.setSumm(instance.getSumm());

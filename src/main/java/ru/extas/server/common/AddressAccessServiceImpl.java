@@ -1,6 +1,7 @@
 package ru.extas.server.common;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.context.annotation.Scope;
@@ -106,8 +107,7 @@ public class AddressAccessServiceImpl implements AddressAccessService {
 
     }
 
-    @Getter
-    @Setter
+    @Data
     @AllArgsConstructor
     public class Valued {
         private String value;

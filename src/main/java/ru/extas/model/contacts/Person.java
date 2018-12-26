@@ -134,7 +134,7 @@ public class Person extends Client implements ArchivedObject {
     private MaritalStatus maritalStatus;
 
     @Column(name = "HAS_MARRIAGE_СONTRACT")
-    private boolean marriageСontract;
+    private boolean marriageContract;
 
     @OneToMany(mappedBy = "parent", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<PersonChild> children = newArrayList();
@@ -937,12 +937,12 @@ public class Person extends Client implements ArchivedObject {
         this.maritalStatus = maritalStatus;
     }
 
-    public boolean isMarriageСontract() {
-        return marriageСontract;
+    public boolean isMarriageContract() {
+        return marriageContract;
     }
 
-    public void setMarriageСontract(final boolean marriageСontract) {
-        this.marriageСontract = marriageСontract;
+    public void setMarriageContract(final boolean marriageContract) {
+        this.marriageContract = marriageContract;
     }
 
     public List<PersonChild> getChildren() {

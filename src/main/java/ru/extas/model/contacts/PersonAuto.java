@@ -5,6 +5,7 @@ import ru.extas.model.common.IdentifiedObject;
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 /**
  * Автотранспорт во владении физ. лица

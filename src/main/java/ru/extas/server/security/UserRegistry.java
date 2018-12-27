@@ -29,7 +29,7 @@ public interface UserRegistry extends JpaRepository<UserProfile, String> {
      * @return a {@link ru.extas.model.security.UserProfile} object.
      */
     @Cacheable("userByLogin")
-    @Query("SELECT u FROM UserProfile u, u.aliases a WHERE a = :login")
+    @Query("SELECT u FROM UserProfile u join u.aliases a WHERE a = :login")
     UserProfile findByLogin(@Param("login") String login);
 
 //    @CacheEvict(value = "userByLogin", allEntries=true)

@@ -30,6 +30,6 @@ public interface PermissionRegistry extends JpaRepository<ExtaPermission, String
      * @param user a {@link ru.extas.model.security.UserProfile} object.
      * @return a {@link java.util.List} object.
      */
-    @Query("SELECT p FROM ExtaPermission p WHERE p.user = :user OR p.group IN (SELECT g FROM UserProfile u, u.groupList g WHERE u = :user)")
+    @Query("SELECT p FROM ExtaPermission p WHERE p.user = :user OR p.group IN (SELECT g FROM UserProfile u join u.groupList g WHERE u = :user)")
     List<ExtaPermission> loadUserPermission(@Param("user") UserProfile user);
 }

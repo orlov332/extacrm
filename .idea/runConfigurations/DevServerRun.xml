@@ -4,6 +4,7 @@
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings">
         <MavenRunnerSettings>
+          <option name="delegateBuildToMaven" value="false" />
           <option name="environmentProperties">
             <map />
           </option>
@@ -24,10 +25,10 @@
           </option>
           <option name="goals">
             <list>
-              <option value="tomcat7:run" />
-              <option value="-e" />
+              <option value="spring-boot:run" />
             </list>
           </option>
+          <option name="pomFileName" />
           <option name="profilesMap">
             <map>
               <entry key="dev" value="true" />
@@ -46,6 +47,6 @@
     <RunnerSettings RunnerId="Run" />
     <ConfigurationWrapper RunnerId="Debug" />
     <ConfigurationWrapper RunnerId="Run" />
-    <method />
+    <method v="2" />
   </configuration>
 </component>

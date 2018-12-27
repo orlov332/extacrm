@@ -1,5 +1,6 @@
 package ru.extas.model.common;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.springframework.data.domain.Persistable;
 
 import javax.persistence.*;
@@ -27,6 +28,7 @@ public class IdentifiedObject implements Persistable<String> {
 
     @Id
     @GeneratedValue(generator = "system-uuid")
+    @GenericGenerator(name = "system-uuid", strategy = "uuid2")
     @Column(name = "ID", length = ID_SIZE)
     private String id;
 

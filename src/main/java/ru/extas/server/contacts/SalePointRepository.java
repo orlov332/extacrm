@@ -31,7 +31,7 @@ public interface SalePointRepository extends JpaRepository<SalePoint, String>, S
      * @param employee сотрудник
      * @return список найденных торговых точек
      */
-    @Query("select s from SalePoint s, s.employees e where e = :employee")
+    @Query("select s from SalePoint s join s.employees e where e = :employee")
     List<SalePoint> findByEmployee(@Param("employee") Employee employee);
 
     /**
